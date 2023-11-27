@@ -15,9 +15,9 @@ Author: 骆昊
 Date: 2018-03-05
 """
 
-import time
-import shutil
 import os
+import shutil
+import time
 
 seconds = time.time()
 print(seconds)
@@ -33,8 +33,9 @@ print(strtime)
 mydate = time.strptime('2018-1-1', '%Y-%m-%d')
 print(mydate)
 
-shutil.copy('/Users/Hao/hello.py', '/Users/Hao/Desktop/first.py')
+# shutil.copy('/Users/Hao/hello.py', '/Users/Hao/Desktop/first.py')
+shutil.copy('function1.py', 'function1-copy.py')
 os.system('ls -l')
-os.chdir('/Users/Hao')
+os.chdir('../')
 os.system('ls -l')
 os.mkdir('test')
