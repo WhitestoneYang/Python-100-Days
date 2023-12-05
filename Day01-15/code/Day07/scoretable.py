@@ -24,5 +24,6 @@ def main():
 #           scores[row][col] = score
 #   print(scores)
 
+
 if __name__ == '__main__':
     main()
